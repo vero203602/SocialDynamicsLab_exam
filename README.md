@@ -10,7 +10,7 @@ This is the starting point of our analysis.
 ### REFERENCES:
 
 [1] Craft ME. (2015) Infectious disease transmission and contact networks in wildlife and livestock. Phil. Trans. R. Soc B.
-http://dx.doi.org/10.1098/rstb.2014.0107  
+Link: [http://dx.doi.org/10.1098/rstb.2014.0107](http://dx.doi.org/10.1098/rstb.2014.0107)    
 
 [2] Madan A., Cebrian M., Lazer D., Pentland A.,Social sensing for epidemiological behavior change MIT Media Lab and Harvard University,Cambridge MA https://link.springer.com/content/pdf/10.1186/s12879-017-2623-2.pdf  
 
