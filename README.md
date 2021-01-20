@@ -12,15 +12,17 @@ These are very challenging tasks. Nowadays, thanks to the diffusion of mobile de
 This is the starting point of our analysis.
 
 ### Limitations
-● Small sample (the final dataset counts more or less 3000 observations, but on a small portion of the population of the college - only 65 students on the campus ).
-● Biases due to coverage (the study only covers students from a single dorm, but these individuals also have contacts with other people around the campus).
-● Biases due to data (Proximity dataset registers bluetooth proximity and the percentage that the specific record concern people that are sharing the same floor in the building. This means that not all the contacts that we are considering are actually true).
-● Approximation of incubation time - to 24, 48 and 72 hours: this might lead to errors in capturing the disease spread.
-● Threshold in the logistic: we decided to keep the canonic 0.5 threshold, that has overall a poor performance. Anyway, some simulation with other threshold are available in the analysis.
+● Small sample (the final dataset counts more or less 3000 observations, but on a small portion of the population of the college - only 65 students on the campus ).  
+● Biases due to coverage (the study only covers students from a single dorm, but these individuals also have contacts with other people around the campus).  
+● Biases due to data (Proximity dataset registers bluetooth proximity and the percentage that the specific record concern people that are sharing the same floor in the building. This means that not all the contacts that we are considering are actually true).  
+● Approximation of incubation time - to 24, 48 and 72 hours: this might lead to errors in capturing the disease spread.  
+● Threshold in the logistic: we decided to keep the canonic 0.5 threshold, that has overall a poor performance. Anyway, some simulation with other threshold are available in the analysis.  
 
 ### Results 
-Considering all the aforementioned limitations, the main results of this study concerns the time window to be considered while analysing disease spread. In particular, it is clearly unlikely that the observed individuals manifests flu-like symptoms in the 24 hours subsequent to an encounter.
-Although the overall performance of the different models is not very satisfying, the analysis suggests that - overall - the most appropriate time window seems to be between 48h and 72h - often in literature 48 hours is considered, for flu symptoms [6]. With this specific time span, in fact, the general predictive power throughout the different models reaches its best.
+Considering all the aforementioned limitations, the main results of this study concerns the time window to be considered while analysing disease spread. In particular, it is clearly unlikely that the observed individuals manifests flu-like symptoms in the 24 hours subsequent to an encounter.  
+
+Although the overall performance of the different models is not very satisfying, the analysis suggests that - overall - the most appropriate time window seems to be between 48h and 72h - often in literature 48 hours is considered, for flu symptoms [6]. With this specific time span, in fact, the general predictive power throughout the different models reaches its best.  
+
 Overall, the study suggests that the social dimension of each individual is one of the most relevant feature when predicting his or her probability to get sick. However, more than giving a precise ranking of the most relevant feature to predict sick records, the most interesting finding regards, as mentioned, the importance of the time window in which individuals develop symptoms.
 ***
 
